@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 while(dogNames.hasNext())
                 {
                     String dogName = dogNames.next();
-                    dogStringBuilder.append(dogName).append(", ");
+                    dogStringBuilder.append(" | ").append(dogName);
                 }
                 textView.setText(dogStringBuilder);
             } catch (Exception e) {
